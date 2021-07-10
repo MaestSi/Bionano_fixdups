@@ -13,12 +13,14 @@
 **Bionano_fixdups.R**
 
 Rscript ./Bionano_fixdups.R \<scaffolds.fasta\> \<file.agp\> \<contigs.fasta\>
-  
+
+*Note*: set the path to Minimap2, Samtools and Samextractlips executables before running the script.
+
 Inputs:
 
-\<scaffolds.fasta\>: fasta file with scaffolds produced by Bionano hybrid scaffolding pipeline
-\<file.agp\>: agp file describing which contig has been included in each scaffold
-\<contigs.fasta\>: fasta file with contigs cut by Bionano hybrid scaffolding pipeline
+*\<scaffolds.fasta\>: fasta file with scaffolds produced by Bionano hybrid scaffolding pipeline
+*\<file.agp\>: agp file describing which contig has been included in each scaffold
+*\<contigs.fasta\>: fasta file with contigs cut by Bionano hybrid scaffolding pipeline
 
 Outputs:
 
