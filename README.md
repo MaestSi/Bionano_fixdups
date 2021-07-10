@@ -26,3 +26,4 @@ Outputs:
 
 * \<scaffolds\_neg\_gaps\_fixed.fasta\>: fasta file with overlaps between contigs trimmed
 * logfile\_fix\_scaffolds.txt: logfile reporting operations performed on input scaffolds
+* fix\_scaffolding\_temp: directory containing temporary files
