@@ -14,7 +14,7 @@
 
 Rscript ./Bionano_fixdups.R \<scaffolds.fasta\> \<file.agp\> \<contigs.fasta\>
 
-*Note*: set the path to Minimap2, Samtools and Samextractlips executables before running the script.
+**Note**: set the path to Minimap2, Samtools and Samextractlips executables before running the script.
 
 Inputs:
 
